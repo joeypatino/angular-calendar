@@ -12,6 +12,7 @@ import { CalendarTodayDirective } from './calendar-today.directive';
 import { CalendarDatePipe } from './calendar-date.pipe';
 import { CalendarEventTitlePipe } from './calendar-event-title.pipe';
 import { ClickDirective } from './click.directive';
+import { LongPressDirective } from './longpress.directive';
 import { KeydownEnterDirective } from './keydown-enter.directive';
 import { CalendarEventTitleFormatter } from './calendar-event-title-formatter.provider';
 import { CalendarDateFormatter } from './calendar-date-formatter.provider';
@@ -75,6 +76,7 @@ export {
     CalendarEventTitlePipe,
     CalendarA11yPipe,
     ClickDirective,
+    LongPressDirective,
     KeydownEnterDirective,
   ],
   imports: [CommonModule],
@@ -90,6 +92,7 @@ export {
     CalendarEventTitlePipe,
     CalendarA11yPipe,
     ClickDirective,
+    LongPressDirective,
     KeydownEnterDirective,
   ],
   providers: [I18nPluralPipe],

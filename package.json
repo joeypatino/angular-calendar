@@ -157,6 +157,7 @@
     "@angular/core": ">=6.0.0"
   },
   "dependencies": {
+    "@ionic/angular": "^5.6.9",
     "@scarf/scarf": "^1.1.0",
     "angular-draggable-droppable": "^4.6.0",
     "angular-resizable-element": "^3.3.5",
